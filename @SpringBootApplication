@@ -1,0 +1,7 @@
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@SpringBootApplication
+public class IceCreamInventoryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IceCreamInventoryApplication.class, args);
+	}
